@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header class="cabecalho" id="cabecalho">
+        <button onclick="toogleSideBar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="logo_header">
+            <img src="./assets/logo-samy.png" class="cabecalho_img_logo" alt="logo-rafael">
+        </div>
+        <nav class="cabecalho__menu" id="cabecalho__menu">
+            <button onclick="toogleSideBar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+        </nav>
+    </header>
+    <main tabindex="0" onclick="closeSideBar()" class="main__curriculo" id="apresentacao">
+        <h1 class="apresentacao__conteudo__titulo">Samylle Jensen</h1>
+        <p></p>
+
+        <h2 class="apresentacao__links__subtitulo">CONTATO</h2>
+        
+        <ul>
+            <li class="apresentacao__conteudo__paragrafo">Telefone: (11) 933439626</li>
+            <li class="apresentacao__conteudo__paragrafo">Email: samyllejsilva@gmail.com</li>
+            <li class="apresentacao__conteudo__paragrafo">Endereço: Rua Itápolis, 1325, Pacaembú- SP</li>
+        </ul>
+    
+        <h2 class="apresentacao__links__subtitulo">EXPERIÊNCIAS</h2>
+        <p class="apresentacao__conteudo__paragrafo">Fevereiro/2021 - Fevereiro/2022</p>
+        <p class="apresentacao__conteudo__paragrafo">Caixa/Recepcionista - Cartório de Redenção-PA</p>
+        <ul class="apresentacao__conteudo__paragrafo">
+            <li>Processar e receber pagamentos, emissão de notas fiscais.</li>
+            <li>Abertura e fechamento de caixa e auxílio em eventuais dúvidas dos clientes.</li>
+        </ul>
+    
+        <p class="apresentacao__conteudo__paragrafo">Abril/2022 - Setembro/2022</p>
+        <p class="apresentacao__conteudo__paragrafo">Professora de Programação - BYJU'S</p>
+        <p class="apresentacao__conteudo__paragrafo">São Paulo/SP - Remoto</p>
+        <ul class="apresentacao__conteudo__paragrafo">
+            <li>Desenvolvia a tarefa de ensinar a linguagem de programação JAVASCRIPT para crianças de 4,5 e 6 anos de idade.</li>
+        </ul>
+    
+        <h2 class="apresentacao__links__subtitulo">HISTÓRICO ACADÊMICO</h2>
+        <p class="apresentacao__conteudo__paragrafo">Universidade São Judas Tadeu - Jan/2022- Cursando</p>
+        <p class="apresentacao__conteudo__paragrafo">Ensino superior em Gestão da Tecnologia da Informação (3/5)</p>
+        <ul class="apresentacao__conteudo__paragrafo">
+            <li>Certificado de indicação de "Projeto Destaque" na EXPO SÃO JUDAS.</li>
+        </ul>
+    
+        <p class="apresentacao__conteudo__paragrafo">Grupo UNINTER - mar/2021 - Cursando</p>
+        <p class="apresentacao__conteudo__paragrafo">Ensino superior em Análise e Desenvolvimento de Sistemas (Previsão de término - set/2023)</p>
+    
+        <p class="apresentacao__conteudo__paragrafo">Instituto Adventista Cruzeiro do Sul - Jan/2017 - Dez/2019</p>
+        <p class="apresentacao__conteudo__paragrafo">Ensino Médio (completo)</p>
+    
+        <h2 class="apresentacao__links__subtitulo">APTIDÕES</h2>
+        <ul class="apresentacao__conteudo__paragrafo">
+            <li>Pacote Office</li>
+            <li>JAVASCRIPT (BÁSICO)</li>
+            <li>HTML</li>
+            <li>SCRUM</li>
+            <li>PMI</li>
+            <li>Graduanda em Gestão da Tecnologia da Informação, na Universidade São Judas Tadeu e Análise e Desenvolvimento de Sistemas, no Centro Universitário Internacional UNINTER.</li>
+            <li>Possuo experiência em atendimento ao público, ensino de linguagem de programação (JAVASCRIPT), liderança de equipes, análise de finanças e rotinas administrativas.</li>
+            <li>Conhecimento em Gestão de Projetos e Gestão de Equipes.</li>
+            <li>PORTUGUÊS - FLUENTE/NATIVO</li>
+            <li>INGLÊS - FLUENTE</li>
+        </ul>
+    </main>
+    <footer class="rodape">Desenvolvido por Samylle Jensen.</footer>
+    <script src="main.js"></script>
+</body>
+</html>
